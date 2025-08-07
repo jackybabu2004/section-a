@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Admission Form</title>
+</head>
+
+<body>
+    <h1>Student Admission Form</h1>
+
+    <form>
+        <label for="name">Student Name</label>
+        <input type="text" id="name" required minlength="4">
+        <br><br>
+        <label for="Email">Email adress</label>
+        <input type="Email" id="Email" Required>
+        <br><br>
+        <label for="Dob">Date Of Birth</label>
+        <input type="Date" id=Dob>
+        <br><br>
+        <label for="">Colleage Year</label>
+        <input type="number" min=1 max="4">
+        <br><br>
+        <label for="">Gender</label>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <br><br>
+        <select>
+            <option>Mern Stack Development</option>
+            <option>UI UK</option>
+            <option>Data Analytics</option>
+            <option>Dta Science</option>
+            <option>Cyber Security</option>
+        </select>
+        <br><br>
+        <label for="College Name">College Name</label>
+        <input type="text" list="college">
+        <br><br>
+        <datalist id="college">
+            <option>LPCPS</option>
+            <option>JJS</option>
+            <option>BBDU</option>
+            <option>RR</option>
+            <option>SVn</option>
+            <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>

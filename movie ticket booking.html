@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Movie Ticket Booking Form</title>
+</head>
+
+<body>
+    <h1>Movie Ticket Booking Form</h1>
+
+    <form>
+        <label for="movie">Select Movie:</label>
+        <select id="movie" name="movie">
+            <option>Select</option>
+        </select>
+        <br><br>
+
+        <label for="theatre">Select Theatre:</label>
+        <select id="theatre" name="theatre">
+            <option>INOX CROWN</option>
+        </select>
+        <br><br>
+
+        <label for="date">Choose Date:</label>
+        <input type="date" id="date" name="date">
+        <br><br>
+
+        <label for="time">Show Time:</label>
+        <select id="time" name="time">
+            <option>Select</option>
+        </select>
+        <br><br>
+
+        <label for="tickets">Number of Tickets:</label>
+        <input type="number" id="tickets" name="tickets">
+        <br><br>
+
+        <label>Seat Type:</label><br>
+        <input type="radio" id="regular" name="seat" value="Regular">
+        <label for="regular">Regular</label><br>
+
+        <input type="radio" id="premium" name="seat" value="Premium">
+        <label for="premium">Premium</label><br>
+
+        <input type="radio" id="vip" name="seat" value="VIP">
+        <label for="vip">VIP</label><br>
+
+        <input type="radio" id="recliner" name="seat" value="Recliner">
+        <label for="recliner">Recliner</label><br><br>
+
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname">
+        <br><br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone">
+        <br><br>
+
+        <button type="submit">Book Tickets</button>
+    </form>
+</body>
+
+</html>
