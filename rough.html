@@ -1,13 +1,73 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My first Page</title>
 </head>
 
 <body>
+    <main>
+        <ul>
+            <li>Apple</li>
+            <ul>
+                <li>color:red</li>
+                <li>season:winters</li>
+            </ul>
+            <li>mango</li>
+            <ul>
+                <li>color:yellow</li>
+                <li>season:summer</li>
+            </ul>
+            <li>litchi</li>
+            <ul>
+                <li>color:pink</li>
+                <li>season:monsoon</li>
+
+            </ul>
+
+        </ul>
+        <ol>
+            <li>Apple</li>
+            <ol>
+                <li>color:red</li>
+                <li>season:winters</li>
+            </ol>
+            <li>mango</li>
+            <ol>
+                <li>color:yellow</li>
+                <li>season:summer</li>
+            </ol>
+            <li>litchi</li>
+            <ol>
+                <li>color:pink</li>
+                <li>season:monsoon</li>
+            </ol>
+
+        </ol>
+    </main>
+    <header>
+        <h1>my portfolio</h1>
+    </header>
+    <main>
+        <section>Education: BCA(nep) / school Central Academy</section>
+        <section>Experienca as an CSA in swiggy</section>
+        <article> my story:lorem15</article>
+        <a href="https://google.com" target="main"><img
+                src="data:image/png;base64,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"
+                atl="google" width="50"></a>
+        <aside>This is an ads</aside>
+        <div>
+            <p>hello bhai </p>
+            <p>byee</p>
+            <p>namaste</p>
+            <p> jao bhai</p>
+        </div>
+    </main>
+    <footer>
+        <h5>contatact me at svasu3196@gmail.com</h5>
+    </footer>
     <h1>
         <p>simple paragraph</p>
     </h1>
@@ -36,8 +96,18 @@
     <hr>
     <p><u>sample paragraph</u>its a paragrph example which help to understand the underlined </p>
     <big>this tag shows big text</big>
-    <hr/>
+    <hr />
     <small>this tag show small text</small>
+    <hr />
+    <p>H<sub>2</sub>0</p>
+    <p>3<sup>2</sup></p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi deserunt, mollitia consectetur velit delectus quas
+        soluta sit unde porro illo quod voluptates inventore eius saepe amet maxime laudantium. Consequatur, possimus!
+    </p>
+
 </body>
 
-</html>
+</html> -->
+
+
+
