@@ -87,17 +87,17 @@ const smartphoneList = [
     },
 ];
 
-console.log(smartphonelist.length);
+console.log(smartphoneList.length);
 
-console.log(smartphonelist[0]);
+console.log(smartphoneList[0]);
 
-console.log(smartphonelist[1]);
+console.log(smartphoneList[1]);
 
-console.log(smartphonelist[0].price);
+console.log(smartphoneList[0].price);
 
-console.log(smartphonelist[0].colors[2]);
+console.log(smartphoneList[0].colors[2]);
 
-smartphonelist[0].colors.push('green');
-console.log(smartphonelist);
+smartphoneList[0].colors.push('green');
+console.log(smartphoneList);
 
 
